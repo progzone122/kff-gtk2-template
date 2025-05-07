@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "name": "app_name",
+      "prompt": "Application name:",
+      "type": "string",
+      "default": "example_gtk_application"
+    },
+    {
+      "name": "version",
+      "prompt": "Application version:",
+      "type": "string",
+      "default": "0.0.1"
+    }
+    {
+      "name": "window_title",
+      "prompt": "Window title:",
+      "type": "string",
+      "default": "L:A_N:application_ID:helloworld_PC:T"
+    }
+  ],
+  "files": [
+    {
+      "file": "meson.build",
+      "placeholders": [
+        {
+          "placeholder": "{APP_NAME}",
+          "replacement": "{app_name}",
+          "description": ""
+        },
+        {
+          "placeholder": "{VERSION}",
+          "replacement": "{version}",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "file": "src/include/config.hpp",
+      "placeholders": [
+        {
+          "placeholder": "{WINDOW_TITLE}",
+          "replacement": "{window_title}",
+          "description": ""
+        },
+      ]
+    },
+  ]
+}

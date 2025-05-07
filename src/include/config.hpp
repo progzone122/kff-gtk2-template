@@ -1,0 +1,6 @@
+#define WINDOW_TITLE "{WINDOW_TITLE}"
+
+#define DESKTOP_W_SIZE 632
+#define DESKTOP_H_SIZE 840
+
+#define DEBUG TRUE
