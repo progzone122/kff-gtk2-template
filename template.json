@@ -42,7 +42,7 @@
           "placeholder": "{WINDOW_TITLE}",
           "replacement": "{window_title}",
           "description": ""
-        },
+        }
       ]
     }
   ]
